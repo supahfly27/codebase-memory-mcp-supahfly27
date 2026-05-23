@@ -26,7 +26,7 @@ enum { DEFAULT_CORES = 1, MIN_WORKERS = 1 };
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/sysctl.h>
-#else /* Linux */
+#elif !defined(_WIN32) /* Linux */
 #include <unistd.h>
 #include <sys/sysinfo.h>
 
@@ -101,7 +101,7 @@ static cbm_system_info_t detect_system_bsd(void) {
     return info;
 }
 
-#else /* Linux */
+#elif !defined(_WIN32) /* Linux */
 
 static cbm_system_info_t detect_system_linux(void) {
     cbm_system_info_t info;

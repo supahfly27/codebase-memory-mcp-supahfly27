@@ -1,3 +1,6 @@
+This is not my work. I just corrected a bug. The code_search tool didn't work on windows.
+I will cose the repository after Deus correct it.
+
 # codebase-memory-mcp
 
 [![GitHub Release](https://img.shields.io/github/v/release/DeusData/codebase-memory-mcp?style=flat&color=blue)](https://github.com/DeusData/codebase-memory-mcp/releases/latest)

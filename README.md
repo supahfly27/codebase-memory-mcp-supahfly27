@@ -1,5 +1,7 @@
 This is not my work. I just corrected a bug. The code_search tool didn't work on windows.
 I will cose the repository after Deus correct it.
+Deus repository
+https://github.com/DeusData/codebase-memory-mcp
 
 # codebase-memory-mcp
 
